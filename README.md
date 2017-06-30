@@ -126,23 +126,23 @@ Use Cases:
 - Anything else you can dream up!
 
 
-
-############ INPUT DATA ################
+##### INPUT DATA
 Create and fill input_data dictionary to mirror functionality of
 Zapier's Input Data fields in the Run Python Zap
-"""
-input_data = {}
-output = {}
-"""
-# Set/Get Input Data (Implemented as Dictionary)
-# Example:
-input_data['order_number'] = 1019
-value = input_data['order_number']
-print(value)
+
+`input_data = {}`
+`output = {}`
+
+###### Set/Get Input Data (Implemented as Dictionary)
+
+Example:
+`input_data['order_number'] = 1019`
+`value = input_data['order_number']`
+`print(value)`
 >>> 1019
 
 NOTE: All Input Data values are returned as string literals
-input_data['order_number'] = u'39849829857'
+`input_data['order_number'] = u'39849829857'`
 
 
 ############ ZAP STORE #################
@@ -157,11 +157,11 @@ NOTE: 500 Key Limit
 Make sure you Delete Keys when you're done with them
 
 Example Usage:
-store = StoreClient('ZvRjAWvxEg9Rpatj')
-store.set('hello', 'world')
-value = store.get('hello')
-print(value)
+`store = StoreClient('Your Secret')`
+`store.set('hello', 'world')`
+`value = store.get('hello')`
+`print(value)`
 >>> 'world'
-store.delete('hello')
+`store.delete('hello')`
 
 
