@@ -28,7 +28,7 @@ Zapier platform itself, I believe you have come to the right place.
 * General Advice and Help using Zapier Code Step
 
 
-##### Zapier Template
+#### Zapier Template
 
 This file should be used to create every new code step in Zapier.
 You shouldn't need to touch the Zapier Editor until you already
@@ -51,7 +51,7 @@ like this when I started using Zapier would have saved me a lot of
 time.
 
 
-##### StoreClient
+#### StoreClient
 
 Zapier's Store Client is a small cloud based storage system you
 can use to store data in your Zaps. You could in theory store it
@@ -77,7 +77,7 @@ If there are issues or you have ideas to expand please create an issue
 and pass the ideas my way!
 
 
-##### Real World Examples
+#### Real World Examples
 
 There are only a couple examples at the moment:
 
@@ -92,7 +92,7 @@ Also, feel free to let me know what creative ways you're using it!
 
 
 
-##### General Advice and Help using Zapier Code Step
+#### General Advice and Help using Zapier Code Step
 
 
 "Full" Documentation on Python Code Zaps available here:
